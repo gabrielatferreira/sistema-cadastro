@@ -1,0 +1,44 @@
+@media screen and (max-width: 800px) {
+    
+    .container-header {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .logo-header {
+        width: 150px;
+    }
+
+    .texto-header {
+        padding-bottom: 15px;
+        font-size: 25px;
+    }
+
+    .nav-aside {
+        padding: 0 0 0 10px;
+        text-align: center;
+        padding-right: 10px;
+        align-items: center;
+        width: auto;
+    }
+
+    .item-aside {
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .frase-aside-home {
+        font-size: 25px;
+        padding: 0 20px;
+    }
+
+    .frase-aside-produto {
+        width: auto;
+    }
+
+    .frase-aside-clientes {
+        width: auto;
+    }
+}

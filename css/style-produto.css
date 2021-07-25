@@ -1,0 +1,77 @@
+.frase-aside-produto {
+    width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 20%;
+    padding: 6px 0;
+    border: 1px solid rgb(165, 157, 157);
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    width: 20%;
+}
+
+.container-tabela-produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs-aside-produto-nomes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+.inputs-aside-produto-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+#add-produto {
+    width: 120px;
+    height: 30px;
+    margin-right: 15px;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+#add-produto:hover {
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: rgb(248, 245, 76);
+    color: #000;
+    border: 1px solid rgb(165, 157, 157);
+}
+
+table {
+    margin-left: 8px;
+}
+
+.div-item {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    border: 2px solid rgb(58, 56, 56);
+    height: 30px;
+    width: 205px;
+    text-align: center; 
+}

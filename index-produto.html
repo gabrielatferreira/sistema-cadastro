@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-cliente.css">
+    <link rel="stylesheet" href="css/style-produto.css">
+    <link rel="stylesheet" media="(max-width: 800px)" href="css/responsividade.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+
+    <title>Best Price - Sistema de Cadastro</title>
+</head>
+<body>
+    <header class="container-header">
+        <img class="logo-header" src="assets/logo.png" alt="Logo Best Price">
+        <h1 class="texto-header">Sistema de Cadastro</h1>
+    </header>
+
+    <aside class="container-aside">
+        <div class="nav-aside">
+            <a class="item-aside" href="index.html">Home</a>
+            <a class="item-aside item-aside-produto" href="#">Cadastro de Produtos</a>
+            <a class="item-aside" href="index-cliente.html">Cadastro de Clientes</a>
+        </div>
+
+        <div class="texto-aside-produto" aside-produto>
+            <h2 class="frase-aside-produto">Cadastre aqui um novo Produto</h2>
+            <div class="container-tabela-produtos">
+                <div class="inputs-aside-produto-nomes">
+                    <p>Categoria</p>
+                    <p>Marca</p>
+                    <p>Preço</p>
+                    <p>Quantidade</p>
+                    <p></p>
+                </div>
+                <div class="inputs-aside-produto-inputs">
+                    <input type="text" id="input-categoria" input-categoria-produto>
+                    <input type="text" id="input-marca" input-marca-produto>
+                    <input type="text" id="input-preco" input-preco-produto>
+                    <input type="text" id="input-quantidade" input-quantidade-produto>
+                    <button id="add-produto" button-add>Adicionar</button>
+                </div>
+            </div>
+            
+            <table class="novo-produto" novo-produto table-container></table> 
+
+        </div>       
+    </aside>
+
+    <footer class="container-footer">
+        <img class="logo-footer" src="assets/logoimg.png" alt="Logo menor da Best Price">
+        <p class="texto-footer">©️ Copyright Best Price - Sistema de Cadastro</p>
+    </footer>
+
+    <script type="module" src="./js/scriptProd.js"></script>
+    
+</body>
+</html>
